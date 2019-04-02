@@ -115,9 +115,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="inputing.c" />
+    <ClCompile Include="main.c" />
     <ClCompile Include="matrix.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="inputing.h" />
     <ClInclude Include="matrix.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
